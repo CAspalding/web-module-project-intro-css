@@ -3,108 +3,252 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 10px;
-	padding: 1px;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 10px;
+  padding: 1px;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1.5;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+@font-face {
+  font-family: Roboto;
+  src: url("assets/RobotoMono-Regular.ttf");
 }
 
 #headerImage {
-   border-radius: 50%;
-   max-width: 10rem;
-   vertical-align: top;
-   float: left;
+  border-radius: 50%;
+  max-width: 10rem;
+  float: left;
 }
 
 .navA {
-    width: 6vw;
-    height: 2.0vh;
-    background: #FF764E;     
-    border-radius: 10px;
-    display: inline-block;
-    margin-left: 7rem;
-    padding: 0.8rem;
-    text-align: center;
-    vertical-align: top;
+  width: 6vw;
+  height: 2vh;
+  background: #ff764e;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 0.8rem;
+  text-align: center;
+  vertical-align: top;
 }
 
 .navB {
-    width: 6vw;
-    height: 2.0vh;
-    background: #5ED3EB;     
-    border-radius: 10px;
-    display: inline-block;
-    margin-left: 7rem;
-    padding: 0.8rem;
-    text-align: center;
-    vertical-align: top;
+  width: 6vw;
+  height: 2vh;
+  background: #5ed3eb;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 0.8rem;
+  text-align: center;
+  vertical-align: top;
 }
 
 .navC {
-    width: 6vw;
-    height: 2.0vh;
-    background: #FFCD69;     
-    border-radius: 10px;
-    display: inline-block;
-    margin-left: 7rem;
-    padding: 0.8rem;
-    text-align: center;
-    vertical-align: top;
+  width: 6vw;
+  height: 2vh;
+  background: #ffcd69;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 0.8rem;
+  text-align: center;
+  vertical-align: top;
 }
 
 header {
-    margin-top: 1px;
+  margin-top: 1px;
 }
 
 h1 {
-    font-family: Chelsea;
-    display: inline-block;
-    font-size: 3rem;
+  font-family: Chelsea;
+  font-size: 3rem;
+  text-align: center;
 }
 
 @font-face {
-    font-family: Chelsea;
-    src: url("assets/ChelseaMarket-Regular.ttf");
+  font-family: Chelsea;
+  src: url("assets/ChelseaMarket-Regular.ttf");
 }
 
-.topThird {
-    margin-right: 20px;
+p {
+  text-align: center;
+}
+
+body {
+  margin: 0 300px 0 300px;
+  font-family: Roboto;
+  max-width: 1000px;
+}
+
+#main {
+  background: #ddb9a3;
+  color: white;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+footer {
+  background-color: #f9e7dc;
+}
+
+.middleImage {
+  max-width: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  line-height: 1;
+  color: white;
+}
+
+#alwaysOpen {
+   ;
+}
+
+#topThird {
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+}
+
+#footerImage {
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    margin: initial;
+    padding-top: 10rem;
+}
+
+footer {
+    margin: initial;
+}
+
+.imageFooter {
+    margin-right: 20rem;
+    margin-left: 20rem;
 }
