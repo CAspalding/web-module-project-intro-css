@@ -50,6 +50,8 @@ table {
 #headerImage {
    border-radius: 50%;
    max-width: 10rem;
+   vertical-align: top;
+   float: left;
 }
 
 .navA {
@@ -90,4 +92,19 @@ table {
 
 header {
     margin-top: 1px;
+}
+
+h1 {
+    font-family: Chelsea;
+    display: inline-block;
+    font-size: 3rem;
+}
+
+@font-face {
+    font-family: Chelsea;
+    src: url("assets/ChelseaMarket-Regular.ttf");
+}
+
+.topThird {
+    margin-right: 20px;
 }
