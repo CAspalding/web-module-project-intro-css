@@ -16,8 +16,8 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
+	margin: 10px;
+	padding: 1px;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -47,3 +47,47 @@ table {
 	border-spacing: 0;
 }
 
+#headerImage {
+   border-radius: 50%;
+   max-width: 10rem;
+}
+
+.navA {
+    width: 6vw;
+    height: 2.0vh;
+    background: #FF764E;     
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 7rem;
+    padding: 0.8rem;
+    text-align: center;
+    vertical-align: top;
+}
+
+.navB {
+    width: 6vw;
+    height: 2.0vh;
+    background: #5ED3EB;     
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 7rem;
+    padding: 0.8rem;
+    text-align: center;
+    vertical-align: top;
+}
+
+.navC {
+    width: 6vw;
+    height: 2.0vh;
+    background: #FFCD69;     
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 7rem;
+    padding: 0.8rem;
+    text-align: center;
+    vertical-align: top;
+}
+
+header {
+    margin-top: 1px;
+}
