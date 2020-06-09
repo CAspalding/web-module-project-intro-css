@@ -148,35 +148,38 @@ table {
 
 .navA {
   width: 6vw;
-  height: 2.2vh;
+  height: auto;
   background: #ff764e;
   border-radius: 10px;
   display: inline-block;
   padding: 0.8rem;
   text-align: center;
   vertical-align: top;
+  overflow: auto;
 }
 
 .navB {
   width: 6vw;
-  height: 2.2vh;
+  height: auto;
   background: #5ed3eb;
   border-radius: 10px;
   display: inline-block;
   padding: 0.8rem;
   text-align: center;
   vertical-align: top;
+  overflow: auto;
 }
 
 .navC {
   width: 6vw;
-  height: 2.2vh;
+  height: auto;
   background: #ffcd69;
   border-radius: 10px;
   display: inline-block;
   padding: 0.8rem;
   text-align: center;
   vertical-align: top;
+  overflow:auto;
 }
 
 header {
